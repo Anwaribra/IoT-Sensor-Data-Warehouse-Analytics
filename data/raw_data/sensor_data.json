@@ -1,0 +1,2002 @@
+[
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 19.02,
+    "timestamp": "2025-04-24T22:29:49.051419",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 60.37,
+    "timestamp": "2025-04-24T22:29:49.051450",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 26.14,
+    "timestamp": "2025-04-24T22:29:49.051462",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 31.83,
+    "timestamp": "2025-04-24T22:29:49.051469",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 25.8,
+    "timestamp": "2025-04-24T22:29:49.051478",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 60.76,
+    "timestamp": "2025-04-24T22:29:49.051484",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 18.68,
+    "timestamp": "2025-04-24T22:29:49.051492",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 44.77,
+    "timestamp": "2025-04-24T22:29:49.051498",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 17.55,
+    "timestamp": "2025-04-24T22:29:49.051507",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 69.35,
+    "timestamp": "2025-04-24T22:29:49.051513",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 27.26,
+    "timestamp": "2025-04-24T22:29:49.051521",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 36.81,
+    "timestamp": "2025-04-24T22:29:49.051527",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 18.58,
+    "timestamp": "2025-04-24T22:29:49.051536",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 55.21,
+    "timestamp": "2025-04-24T22:29:49.051542",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 17.22,
+    "timestamp": "2025-04-24T22:29:49.051550",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 31.6,
+    "timestamp": "2025-04-24T22:29:49.051559",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 21.94,
+    "timestamp": "2025-04-24T22:29:49.051568",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 30.54,
+    "timestamp": "2025-04-24T22:29:49.051575",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 23.63,
+    "timestamp": "2025-04-24T22:29:49.051586",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 45.09,
+    "timestamp": "2025-04-24T22:29:49.051592",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 22.49,
+    "timestamp": "2025-04-24T22:29:49.051601",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 62.33,
+    "timestamp": "2025-04-24T22:29:49.051628",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 18.38,
+    "timestamp": "2025-04-24T22:29:49.051637",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 61.8,
+    "timestamp": "2025-04-24T22:29:49.051644",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 21.49,
+    "timestamp": "2025-04-24T22:29:49.051652",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 36.22,
+    "timestamp": "2025-04-24T22:29:49.051659",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 22.74,
+    "timestamp": "2025-04-24T22:29:49.051668",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 34.65,
+    "timestamp": "2025-04-24T22:29:49.051674",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 25.55,
+    "timestamp": "2025-04-24T22:29:49.051682",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 50.38,
+    "timestamp": "2025-04-24T22:29:49.051690",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 17.49,
+    "timestamp": "2025-04-24T22:29:49.051697",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 40.27,
+    "timestamp": "2025-04-24T22:29:49.051705",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 22.16,
+    "timestamp": "2025-04-24T22:29:49.051713",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 64.32,
+    "timestamp": "2025-04-24T22:29:49.051720",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 26.64,
+    "timestamp": "2025-04-24T22:29:49.051728",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 69.01,
+    "timestamp": "2025-04-24T22:29:49.051735",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 22.92,
+    "timestamp": "2025-04-24T22:29:49.051743",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 32.27,
+    "timestamp": "2025-04-24T22:29:49.051750",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 29.3,
+    "timestamp": "2025-04-24T22:29:49.051758",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 34.88,
+    "timestamp": "2025-04-24T22:29:49.051764",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 26.91,
+    "timestamp": "2025-04-24T22:29:49.051773",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 30.66,
+    "timestamp": "2025-04-24T22:29:49.051781",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 22.54,
+    "timestamp": "2025-04-24T22:29:49.051790",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 34.66,
+    "timestamp": "2025-04-24T22:29:49.051797",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 24.75,
+    "timestamp": "2025-04-24T22:29:49.051806",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 47.23,
+    "timestamp": "2025-04-24T22:29:49.051812",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 15.64,
+    "timestamp": "2025-04-24T22:29:49.051820",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 35.75,
+    "timestamp": "2025-04-24T22:29:49.051827",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 29.05,
+    "timestamp": "2025-04-24T22:29:49.051835",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 61.75,
+    "timestamp": "2025-04-24T22:29:49.051842",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 18.59,
+    "timestamp": "2025-04-24T22:29:49.051850",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 52.48,
+    "timestamp": "2025-04-24T22:29:49.051857",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 24.03,
+    "timestamp": "2025-04-24T22:29:49.051865",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 69.63,
+    "timestamp": "2025-04-24T22:29:49.051873",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 21.13,
+    "timestamp": "2025-04-24T22:29:49.051881",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 46.68,
+    "timestamp": "2025-04-24T22:29:49.051888",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 16.78,
+    "timestamp": "2025-04-24T22:29:49.051896",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 51.53,
+    "timestamp": "2025-04-24T22:29:49.051902",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 20.46,
+    "timestamp": "2025-04-24T22:29:49.051911",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 63.14,
+    "timestamp": "2025-04-24T22:29:49.051917",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 26.18,
+    "timestamp": "2025-04-24T22:29:49.051925",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 53.43,
+    "timestamp": "2025-04-24T22:29:49.051932",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 27.12,
+    "timestamp": "2025-04-24T22:29:49.051940",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 35.26,
+    "timestamp": "2025-04-24T22:29:49.051947",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 16.06,
+    "timestamp": "2025-04-24T22:29:49.051955",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 50.46,
+    "timestamp": "2025-04-24T22:29:49.051964",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 22.23,
+    "timestamp": "2025-04-24T22:29:49.051973",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 66.04,
+    "timestamp": "2025-04-24T22:29:49.051980",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 28.13,
+    "timestamp": "2025-04-24T22:29:49.051989",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 54.73,
+    "timestamp": "2025-04-24T22:29:49.051996",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 29.18,
+    "timestamp": "2025-04-24T22:29:49.052004",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 57.75,
+    "timestamp": "2025-04-24T22:29:49.052011",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 26.77,
+    "timestamp": "2025-04-24T22:29:49.052019",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 47.11,
+    "timestamp": "2025-04-24T22:29:49.052026",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 16.09,
+    "timestamp": "2025-04-24T22:29:49.052033",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 52.09,
+    "timestamp": "2025-04-24T22:29:49.052040",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 30.19,
+    "timestamp": "2025-04-24T22:29:49.052048",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 63.42,
+    "timestamp": "2025-04-24T22:29:49.052058",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 29.08,
+    "timestamp": "2025-04-24T22:29:49.052066",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 43.44,
+    "timestamp": "2025-04-24T22:29:49.052073",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 30.51,
+    "timestamp": "2025-04-24T22:29:49.052081",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 36.05,
+    "timestamp": "2025-04-24T22:29:49.052087",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 16.41,
+    "timestamp": "2025-04-24T22:29:49.052094",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 63.47,
+    "timestamp": "2025-04-24T22:29:49.052101",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 19.09,
+    "timestamp": "2025-04-24T22:29:49.052109",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 64.92,
+    "timestamp": "2025-04-24T22:29:49.052115",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 28.24,
+    "timestamp": "2025-04-24T22:29:49.052123",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 69.61,
+    "timestamp": "2025-04-24T22:29:49.052130",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 21.36,
+    "timestamp": "2025-04-24T22:29:49.052138",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 39.51,
+    "timestamp": "2025-04-24T22:29:49.052145",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 21.17,
+    "timestamp": "2025-04-24T22:29:49.052154",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 56.3,
+    "timestamp": "2025-04-24T22:29:49.052167",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 27.13,
+    "timestamp": "2025-04-24T22:29:49.052176",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 39.45,
+    "timestamp": "2025-04-24T22:29:49.052182",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 18.36,
+    "timestamp": "2025-04-24T22:29:49.052188",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 33.93,
+    "timestamp": "2025-04-24T22:29:49.052194",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 25.47,
+    "timestamp": "2025-04-24T22:29:49.052201",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 58.38,
+    "timestamp": "2025-04-24T22:29:49.052206",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 16.55,
+    "timestamp": "2025-04-24T22:29:49.052212",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 69.8,
+    "timestamp": "2025-04-24T22:29:49.052218",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 22.33,
+    "timestamp": "2025-04-24T22:29:49.052224",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 60.2,
+    "timestamp": "2025-04-24T22:29:49.052229",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 30.07,
+    "timestamp": "2025-04-24T22:29:49.052235",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 54.21,
+    "timestamp": "2025-04-24T22:29:49.052240",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 28.6,
+    "timestamp": "2025-04-24T22:29:49.052247",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 56.62,
+    "timestamp": "2025-04-24T22:29:49.052253",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 18.9,
+    "timestamp": "2025-04-24T22:29:49.052259",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 30.39,
+    "timestamp": "2025-04-24T22:29:49.052264",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 27.18,
+    "timestamp": "2025-04-24T22:29:49.052270",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 30.52,
+    "timestamp": "2025-04-24T22:29:49.052277",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 26.56,
+    "timestamp": "2025-04-24T22:29:49.052283",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 58.89,
+    "timestamp": "2025-04-24T22:29:49.052287",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 17.66,
+    "timestamp": "2025-04-24T22:29:49.052293",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 64.2,
+    "timestamp": "2025-04-24T22:29:49.052299",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 27.26,
+    "timestamp": "2025-04-24T22:29:49.052304",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 45.08,
+    "timestamp": "2025-04-24T22:29:49.052310",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 19.78,
+    "timestamp": "2025-04-24T22:29:49.052316",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 48.02,
+    "timestamp": "2025-04-24T22:29:49.052321",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 28.15,
+    "timestamp": "2025-04-24T22:29:49.052326",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 30.17,
+    "timestamp": "2025-04-24T22:29:49.052331",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 29.16,
+    "timestamp": "2025-04-24T22:29:49.052337",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 34.35,
+    "timestamp": "2025-04-24T22:29:49.052342",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 20.75,
+    "timestamp": "2025-04-24T22:29:49.052349",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 49.3,
+    "timestamp": "2025-04-24T22:29:49.052354",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 19.61,
+    "timestamp": "2025-04-24T22:29:49.052360",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 45.61,
+    "timestamp": "2025-04-24T22:29:49.052365",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 22.76,
+    "timestamp": "2025-04-24T22:29:49.052371",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 54.01,
+    "timestamp": "2025-04-24T22:29:49.052376",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 20.74,
+    "timestamp": "2025-04-24T22:29:49.052383",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 54.25,
+    "timestamp": "2025-04-24T22:29:49.052388",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 19.06,
+    "timestamp": "2025-04-24T22:29:49.052394",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 39.04,
+    "timestamp": "2025-04-24T22:29:49.052399",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 22.67,
+    "timestamp": "2025-04-24T22:29:49.052405",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 47.37,
+    "timestamp": "2025-04-24T22:29:49.052410",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 19.74,
+    "timestamp": "2025-04-24T22:29:49.052417",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 31.9,
+    "timestamp": "2025-04-24T22:29:49.052422",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 22.81,
+    "timestamp": "2025-04-24T22:29:49.052428",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 34.84,
+    "timestamp": "2025-04-24T22:29:49.052434",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 15.91,
+    "timestamp": "2025-04-24T22:29:49.052440",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 67.58,
+    "timestamp": "2025-04-24T22:29:49.052446",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 20.14,
+    "timestamp": "2025-04-24T22:29:49.052452",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 52.86,
+    "timestamp": "2025-04-24T22:29:49.052457",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 22.6,
+    "timestamp": "2025-04-24T22:29:49.052464",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 39.1,
+    "timestamp": "2025-04-24T22:29:49.052469",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 28.13,
+    "timestamp": "2025-04-24T22:29:49.052475",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 55.64,
+    "timestamp": "2025-04-24T22:29:49.052480",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 27.0,
+    "timestamp": "2025-04-24T22:29:49.052487",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 52.19,
+    "timestamp": "2025-04-24T22:29:49.052492",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 17.86,
+    "timestamp": "2025-04-24T22:29:49.052504",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 37.42,
+    "timestamp": "2025-04-24T22:29:49.052510",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 27.63,
+    "timestamp": "2025-04-24T22:29:49.052516",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 53.97,
+    "timestamp": "2025-04-24T22:29:49.052521",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 19.05,
+    "timestamp": "2025-04-24T22:29:49.052527",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 40.72,
+    "timestamp": "2025-04-24T22:29:49.052532",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 22.33,
+    "timestamp": "2025-04-24T22:29:49.052538",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 51.25,
+    "timestamp": "2025-04-24T22:29:49.052543",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 20.55,
+    "timestamp": "2025-04-24T22:29:49.052548",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 33.03,
+    "timestamp": "2025-04-24T22:29:49.052571",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 24.03,
+    "timestamp": "2025-04-24T22:29:49.052576",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 51.38,
+    "timestamp": "2025-04-24T22:29:49.052581",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 24.87,
+    "timestamp": "2025-04-24T22:29:49.052587",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 55.03,
+    "timestamp": "2025-04-24T22:29:49.052591",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 17.9,
+    "timestamp": "2025-04-24T22:29:49.052598",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 62.63,
+    "timestamp": "2025-04-24T22:29:49.052602",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 28.23,
+    "timestamp": "2025-04-24T22:29:49.052619",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 58.2,
+    "timestamp": "2025-04-24T22:29:49.052624",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 24.12,
+    "timestamp": "2025-04-24T22:29:49.052630",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 59.91,
+    "timestamp": "2025-04-24T22:29:49.052635",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 19.63,
+    "timestamp": "2025-04-24T22:29:49.052641",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 32.02,
+    "timestamp": "2025-04-24T22:29:49.052645",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 28.13,
+    "timestamp": "2025-04-24T22:29:49.052650",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 47.69,
+    "timestamp": "2025-04-24T22:29:49.052654",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 18.61,
+    "timestamp": "2025-04-24T22:29:49.052660",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 44.19,
+    "timestamp": "2025-04-24T22:29:49.052666",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 23.15,
+    "timestamp": "2025-04-24T22:29:49.052671",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 54.44,
+    "timestamp": "2025-04-24T22:29:49.052676",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 21.91,
+    "timestamp": "2025-04-24T22:29:49.052682",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 48.19,
+    "timestamp": "2025-04-24T22:29:49.052687",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 24.14,
+    "timestamp": "2025-04-24T22:29:49.052693",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 43.18,
+    "timestamp": "2025-04-24T22:29:49.052697",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 18.54,
+    "timestamp": "2025-04-24T22:29:49.052703",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 51.93,
+    "timestamp": "2025-04-24T22:29:49.052708",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 25.39,
+    "timestamp": "2025-04-24T22:29:49.052714",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 54.89,
+    "timestamp": "2025-04-24T22:29:49.052719",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 23.5,
+    "timestamp": "2025-04-24T22:29:49.052726",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 58.91,
+    "timestamp": "2025-04-24T22:29:49.052731",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 27.55,
+    "timestamp": "2025-04-24T22:29:49.052736",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 66.41,
+    "timestamp": "2025-04-24T22:29:49.052741",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 26.23,
+    "timestamp": "2025-04-24T22:29:49.052747",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 52.16,
+    "timestamp": "2025-04-24T22:29:49.052752",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 20.34,
+    "timestamp": "2025-04-24T22:29:49.052758",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 63.26,
+    "timestamp": "2025-04-24T22:29:49.052762",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 26.87,
+    "timestamp": "2025-04-24T22:29:49.052769",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 65.07,
+    "timestamp": "2025-04-24T22:29:49.052774",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 24.12,
+    "timestamp": "2025-04-24T22:29:49.052779",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 66.47,
+    "timestamp": "2025-04-24T22:29:49.052784",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 26.4,
+    "timestamp": "2025-04-24T22:29:49.052790",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 70.6,
+    "timestamp": "2025-04-24T22:29:49.052795",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  },
+  {
+    "sensor_id": "temp_sensor_1",
+    "value": 26.36,
+    "timestamp": "2025-04-24T22:29:49.052801",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "temperature",
+      "unit": "celsius"
+    }
+  },
+  {
+    "sensor_id": "humidity_sensor_1",
+    "value": 38.19,
+    "timestamp": "2025-04-24T22:29:49.052806",
+    "metadata": {
+      "location": "room1",
+      "sensor_type": "humidity",
+      "unit": "percent"
+    }
+  }
+]
