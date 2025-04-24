@@ -6,24 +6,21 @@ from loguru import logger
 import os
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv()
 
 class SensorDataConsumer:
     def __init__(self):
-        # Initialize Kafka consumer
         self.consumer = KafkaConsumer(
             os.getenv('KAFKA_TOPIC', 'sensor-data'),
-            bootstrap_servers=os.getenv('KAFKA_BOOTSTRAP_SERVERS', 'localhost:9092'),
+            bootstrap_servers=['localhost:9092'],
             value_deserializer=lambda x: json.loads(x.decode('utf-8')),
             group_id=os.getenv('KAFKA_CONSUMER_GROUP', 'sensor-data-group'),
-            auto_offset_reset='earliest'
+            auto_offset_reset='earliest',
+            api_version=(2, 0, 0)
         )
-
-        # Initialize TimescaleDB connection
         self.timescale_conn = psycopg2.connect(
             host=os.getenv('TIMESCALEDB_HOST', 'localhost'),
-            port=os.getenv('TIMESCALEDB_PORT', 5432),
+            port=5433,
             database=os.getenv('TIMESCALEDB_DB', 'sensor_data'),
             user=os.getenv('TIMESCALEDB_USER', 'postgres'),
             password=os.getenv('TIMESCALEDB_PASSWORD', 'postgres')
@@ -34,7 +31,6 @@ class SensorDataConsumer:
         """Create necessary tables in TimescaleDB."""
         try:
             with self.timescale_conn.cursor() as cur:
-                # Create sensor_data table
                 cur.execute("""
                     CREATE TABLE IF NOT EXISTS sensor_data (
                         time TIMESTAMPTZ NOT NULL,
@@ -43,8 +39,6 @@ class SensorDataConsumer:
                         metadata JSONB
                     );
                 """)
-                
-                # Convert to hypertable
                 cur.execute("""
                     SELECT create_hypertable('sensor_data', 'time', 
                         if_not_exists => TRUE);

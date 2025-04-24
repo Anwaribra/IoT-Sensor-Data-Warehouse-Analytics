@@ -1,4 +1,4 @@
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 from typing import Optional
 import os
 from dotenv import load_dotenv
@@ -10,6 +10,10 @@ class Settings(BaseSettings):
     KAFKA_BOOTSTRAP_SERVERS: str = os.getenv("KAFKA_BOOTSTRAP_SERVERS", "localhost:9092")
     KAFKA_TOPIC: str = os.getenv("KAFKA_TOPIC", "sensor-data")
     KAFKA_CONSUMER_GROUP: str = os.getenv("KAFKA_CONSUMER_GROUP", "sensor-data-group")
+
+    # MQTT Configuration
+    MQTT_BROKER: str = os.getenv("MQTT_BROKER", "localhost")
+    MQTT_PORT: int = int(os.getenv("MQTT_PORT", "1883"))
 
     # OpenSenseMap API
     OPENSENSEMAP_API_URL: str = os.getenv("OPENSENSEMAP_API_URL", "https://api.opensensemap.org")
@@ -26,7 +30,7 @@ class Settings(BaseSettings):
     TIMESCALEDB_PORT: int = int(os.getenv("TIMESCALEDB_PORT", "5432"))
     TIMESCALEDB_DB: str = os.getenv("TIMESCALEDB_DB", "sensor_data")
     TIMESCALEDB_USER: str = os.getenv("TIMESCALEDB_USER", "postgres")
-    TIMESCALEDB_PASSWORD: str = os.getenv("TIMESCALEDB_PASSWORD", "")
+    TIMESCALEDB_PASSWORD: str = os.getenv("TIMESCALEDB_PASSWORD", "postgres")
 
     # Monitoring Configuration
     PROMETHEUS_PORT: int = int(os.getenv("PROMETHEUS_PORT", "9090"))

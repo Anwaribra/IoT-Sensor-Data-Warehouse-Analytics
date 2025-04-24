@@ -67,5 +67,5 @@ class KafkaConsumer:
 if __name__ == "__main__":
     # Example usage
     ingestion = OpenSenseMapIngestion()
-    sensor_ids = ["your-sensor-id-1", "your-sensor-id-2"]  # Replace with actual sensor IDs
+    sensor_ids = ["your-sensor-id-1", "your-sensor-id-2"]  
     ingestion.run(sensor_ids) 

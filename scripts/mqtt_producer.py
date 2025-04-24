@@ -3,6 +3,10 @@ import json
 import time
 from typing import Dict, Any
 from loguru import logger
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import settings
 
 class MQTTProducer:
@@ -38,23 +42,19 @@ class MQTTProducer:
         """Main producer loop."""
         while True:
             for sensor_id in sensor_ids:
-                # Simulate sensor data
                 data = {
                     'sensor_id': sensor_id,
-                    'value': 10.5,  # Replace with actual sensor reading
+                    'value': 10.5,  
                     'timestamp': time.time(),
                     'metadata': {'location': 'room1'}
                 }
                 self.publish_sensor_data(sensor_id, data)
             time.sleep(interval)
-
     def close(self):
         """Close MQTT connection."""
         self.client.loop_stop()
         self.client.disconnect()
-
 if __name__ == "__main__":
-
     producer = MQTTProducer()
     sensor_ids = ["temp_sensor_1", "humidity_sensor_1"]  
     try:

@@ -91,8 +91,6 @@ if __name__ == "__main__":
             'unit': 'percent'
         }
     ]
-    
-  
     generator = SensorDataGenerator(sensor_configs)
     output_file = "data/raw_data/sensor_data.json"
     try:
