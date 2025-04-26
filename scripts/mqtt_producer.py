@@ -27,7 +27,6 @@ class MQTTProducer:
     def on_publish(self, client, userdata, mid):
         """Callback when message is published."""
         logger.info(f"Message {mid} published successfully")
-
     def publish_sensor_data(self, sensor_id: str, data: Dict[str, Any]):
         """Publish sensor data to MQTT topic."""
         try:
@@ -50,6 +49,7 @@ class MQTTProducer:
                 }
                 self.publish_sensor_data(sensor_id, data)
             time.sleep(interval)
+
     def close(self):
         """Close MQTT connection."""
         self.client.loop_stop()
