@@ -1,0 +1,19 @@
+env
+data/raw_data
+data/processed_data
+data/sensor_info
+data/sensor_data
+data/sensor_data.json
+data/sensor_info.json   
+
+.env
+
+# Configuration files
+config.py
+.env
+
+# Python scripts
+data/generator.py
+data_pipeline.py
+
+

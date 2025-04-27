@@ -1,13 +1,47 @@
 # Data Processing
-kafka-python==2.0.2
-paho-mqtt==1.6.1
-pandas==2.0.3
-numpy==1.24.3
+pandas==2.2.0
+numpy==1.26.3
+pyspark==3.5.0
+dask==2024.1.0
+vaex==4.17.0
+
+# Machine Learning
+scikit-learn==1.4.0
+tensorflow==2.15.0
+torch==2.2.0
+xgboost==2.0.3
+
+# Time Series Analysis
+statsmodels==0.14.1
+prophet==1.1.5
 
 # Database
-TimescaleDB==2.11.0
-psycopg2-binary==2.9.6
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.25
+asyncpg==0.29.0
 
-# Utilities
+# Data Quality & Testing
+great-expectations==0.17.23
+pytest==8.0.0
+
+# Workflow Management
+apache-airflow==2.7.1
+prefect==2.14.12
+
+# Monitoring & Logging
+prometheus-client==0.19.0
 python-dotenv==1.0.0
-loguru==0.7.0 
+loguru==0.7.0
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.2
+plotly==5.18.0
+dash==2.14.2
+
+# Development
+jupyter==1.0.0
+notebook==7.0.6
+black==24.1.1
+isort==5.13.2 
+
