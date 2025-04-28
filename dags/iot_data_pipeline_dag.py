@@ -36,10 +36,12 @@ def check_data_quality(**context):
         # Read the CSV file
         df = pd.read_csv("data/iot_telemetry_data.csv")
         
+        # Check for missing values
         missing_values = df.isnull().sum()
         if missing_values.any():
             logger.warning(f"Missing values found: {missing_values[missing_values > 0]}")
         
+        # Check data types
         expected_types = {
             'ts': float,
             'device': str,
@@ -87,35 +89,6 @@ def run_kafka_pipeline(**context):
         logger.error(f"Kafka pipeline failed: {str(e)}")
         raise
 
-def analyze_data(**context):
-    """Analyze the IoT telemetry data in TimescaleDB."""
-    try:
-        pg_hook = PostgresHook(
-            postgres_conn_id='timescaledb_conn',
-            schema='sensor_data'
-        )
-        
-        # Get connection
-        conn = pg_hook.get_conn()
-        cursor = conn.cursor()
-        
-        queries = [         
-            """
-            SELECT * FROM iot_telemetry;
-            """
-        ]
-        
-        for query in queries:
-            cursor.execute(query)
-            results = cursor.fetchall()
-            logger.info(f"Query results: {results}")
-        
-        logger.info("Data analysis completed successfully")
-        return True
-    except Exception as e:
-        logger.error(f"Data analysis failed: {str(e)}")
-        raise
-
 # Define tasks
 check_quality = PythonOperator(
     task_id='check_data_quality',
@@ -129,11 +102,5 @@ run_pipeline = PythonOperator(
     dag=dag,
 )
 
-analyze = PythonOperator(
-    task_id='analyze_data',
-    python_callable=analyze_data,
-    dag=dag,
-)
-
 # Set task dependencies
-check_quality >> run_pipeline >> analyze 
+check_quality >> run_pipeline 
