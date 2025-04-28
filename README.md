@@ -1,9 +1,5 @@
 # IoT Data Warehouse
 
-A simple data pipeline for IoT sensor data collection and analysis.
-
-## Overview
-
 This project processes IoT telemetry data from CSV files, stores it in a time-series database, and provides analysis capabilities.
 
 ## Components
