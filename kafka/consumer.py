@@ -8,13 +8,13 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-class SensorDataConsumer:
+class IoTTelemetryConsumer:
     def __init__(self):
         self.consumer = KafkaConsumer(
-            os.getenv('KAFKA_TOPIC', 'sensor-data'),
+            'iot_telemetry',  # Topic name 
             bootstrap_servers=['localhost:9092'],
             value_deserializer=lambda x: json.loads(x.decode('utf-8')),
-            group_id=os.getenv('KAFKA_CONSUMER_GROUP', 'sensor-data-group'),
+            group_id='iot-telemetry-group',
             auto_offset_reset='earliest',
             api_version=(2, 0, 0)
         )
@@ -31,17 +31,30 @@ class SensorDataConsumer:
         """Create necessary tables in TimescaleDB."""
         try:
             with self.timescale_conn.cursor() as cur:
+                
                 cur.execute("""
-                    CREATE TABLE IF NOT EXISTS sensor_data (
-                        time TIMESTAMPTZ NOT NULL,
-                        sensor_id TEXT NOT NULL,
-                        value DOUBLE PRECISION,
-                        metadata JSONB
+                    CREATE TABLE IF NOT EXISTS iot_telemetry (
+                        timestamp TIMESTAMPTZ NOT NULL,
+                        device TEXT NOT NULL,
+                        co DOUBLE PRECISION,
+                        humidity DOUBLE PRECISION,
+                        light BOOLEAN,
+                        lpg DOUBLE PRECISION,
+                        motion BOOLEAN,
+                        smoke DOUBLE PRECISION,
+                        temp DOUBLE PRECISION
                     );
                 """)
+                # Create hypertable for time-series data
                 cur.execute("""
-                    SELECT create_hypertable('sensor_data', 'time', 
+                    SELECT create_hypertable('iot_telemetry', 'timestamp', 
                         if_not_exists => TRUE);
+                """)
+                
+                # Create index on device for faster queries
+                cur.execute("""
+                    CREATE INDEX IF NOT EXISTS idx_iot_telemetry_device 
+                    ON iot_telemetry (device);
                 """)
                 
                 self.timescale_conn.commit()
@@ -51,20 +64,28 @@ class SensorDataConsumer:
             self.timescale_conn.rollback()
 
     def store_in_timescaledb(self, data):
-        """Store data in TimescaleDB."""
+        """Store telemetry data in TimescaleDB."""
         try:
             with self.timescale_conn.cursor() as cur:
                 cur.execute("""
-                    INSERT INTO sensor_data (time, sensor_id, value, metadata)
-                    VALUES (%s, %s, %s, %s)
+                    INSERT INTO iot_telemetry (
+                        timestamp, device, co, humidity, light, 
+                        lpg, motion, smoke, temp
+                    )
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
                 """, (
                     datetime.fromisoformat(data['timestamp']),
-                    data['sensor_id'],
-                    float(data['value']),
-                    json.dumps(data.get('metadata', {}))
+                    data['device'],
+                    data['co'],
+                    data['humidity'],
+                    data['light'],
+                    data['lpg'],
+                    data['motion'],
+                    data['smoke'],
+                    data['temp']
                 ))
                 self.timescale_conn.commit()
-                logger.info(f"Stored data in TimescaleDB for sensor {data['sensor_id']}")
+                logger.info(f"Stored telemetry data for device {data['device']}")
         except Exception as e:
             logger.error(f"Error storing in TimescaleDB: {str(e)}")
             self.timescale_conn.rollback()
@@ -78,7 +99,7 @@ class SensorDataConsumer:
 
     def run(self):
         """Main consumer loop."""
-        logger.info("Starting Kafka consumer...")
+        logger.info("Starting IoT Telemetry consumer...")
         try:
             for message in self.consumer:
                 self.process_message(message.value)
@@ -91,7 +112,8 @@ class SensorDataConsumer:
         """Close all connections."""
         self.consumer.close()
         self.timescale_conn.close()
+        logger.info("Consumer connections closed")
 
 if __name__ == "__main__":
-    consumer = SensorDataConsumer()
+    consumer = IoTTelemetryConsumer()
     consumer.run() 

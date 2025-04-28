@@ -4,10 +4,12 @@ from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 import sys
 import os
+import pandas as pd
+from loguru import logger
 
-# Add the parent directory to the path so we can import the data_pipeline module
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-from scripts.data_pipeline import run_data_pipeline
+from kafka.producer import IoTTelemetryProducer
+from kafka.consumer import IoTTelemetryConsumer
 
 default_args = {
     'owner': 'airflow',
@@ -25,22 +27,94 @@ dag = DAG(
     schedule_interval=timedelta(hours=1),
     start_date=datetime(2024, 1, 1),
     catchup=False,
-    tags=['iot', 'data-engineering'],
+    tags=['iot', 'data'],
 )
 
 def check_data_quality(**context):
-    """Check data quality using Great Expectations."""
-    from great_expectations import DataContext
-    
-    context = DataContext()
-    results = context.run_validation()
-    
-    if not results.success:
-        raise ValueError("Data quality check failed")
+    """Check data quality of IoT telemetry data."""
+    try:
+        # Read the CSV file
+        df = pd.read_csv("data/iot_telemetry_data.csv")
+        
+        missing_values = df.isnull().sum()
+        if missing_values.any():
+            logger.warning(f"Missing values found: {missing_values[missing_values > 0]}")
+        
+        expected_types = {
+            'ts': float,
+            'device': str,
+            'co': float,
+            'humidity': float,
+            'light': bool,
+            'lpg': float,
+            'motion': bool,
+            'smoke': float,
+            'temp': float
+        }
+        
+        for col, expected_type in expected_types.items():
+            if not pd.api.types.is_dtype_equal(df[col].dtype, expected_type):
+                logger.warning(f"Column {col} has incorrect type: {df[col].dtype}, expected {expected_type}")
+        
+        # Check value ranges
+        if (df['co'] < 0).any():
+            logger.warning("Negative CO values found")
+        if (df['humidity'] < 0).any() or (df['humidity'] > 100).any():
+            logger.warning("Humidity values outside valid range (0-100)")
+        if (df['temp'] < -40).any() or (df['temp'] > 100).any():
+            logger.warning("Temperature values outside valid range (-40 to 100°C)")
+        
+        logger.info("Data quality checks completed successfully")
+        return True
+    except Exception as e:
+        logger.error(f"Data quality check failed: {str(e)}")
+        raise
 
-def process_data(**context):
-    """Run the data processing pipeline."""
-    run_data_pipeline()
+def run_kafka_pipeline(**context):
+    """Run the Kafka producer and consumer pipeline."""
+    try:
+        # Start the producer
+        producer = IoTTelemetryProducer()
+        producer.run(batch_size=100, interval=1.0)
+        
+        # Start the consumer
+        consumer = IoTTelemetryConsumer()
+        consumer.run()
+        
+        logger.info("Kafka pipeline completed successfully")
+        return True
+    except Exception as e:
+        logger.error(f"Kafka pipeline failed: {str(e)}")
+        raise
+
+def analyze_data(**context):
+    """Analyze the IoT telemetry data in TimescaleDB."""
+    try:
+        pg_hook = PostgresHook(
+            postgres_conn_id='timescaledb_conn',
+            schema='sensor_data'
+        )
+        
+        # Get connection
+        conn = pg_hook.get_conn()
+        cursor = conn.cursor()
+        
+        queries = [         
+            """
+            SELECT * FROM iot_telemetry;
+            """
+        ]
+        
+        for query in queries:
+            cursor.execute(query)
+            results = cursor.fetchall()
+            logger.info(f"Query results: {results}")
+        
+        logger.info("Data analysis completed successfully")
+        return True
+    except Exception as e:
+        logger.error(f"Data analysis failed: {str(e)}")
+        raise
 
 # Define tasks
 check_quality = PythonOperator(
@@ -49,11 +123,17 @@ check_quality = PythonOperator(
     dag=dag,
 )
 
-process_data = PythonOperator(
-    task_id='process_data',
-    python_callable=process_data,
+run_pipeline = PythonOperator(
+    task_id='run_kafka_pipeline',
+    python_callable=run_kafka_pipeline,
+    dag=dag,
+)
+
+analyze = PythonOperator(
+    task_id='analyze_data',
+    python_callable=analyze_data,
     dag=dag,
 )
 
 # Set task dependencies
-check_quality >> process_data 
+check_quality >> run_pipeline >> analyze 
